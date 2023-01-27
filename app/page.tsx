@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{ position: "relative" }}>
       <h1>Welcome to Rick and Morty app</h1>
-      <h2>What do you want to see ?</h2>
+      <h2>What do you want to see in the app?</h2>
       <Navigator pathNames={[Routes.CHARACTERS, Routes.LOCATIONS]} />
       <Image
         src={Mustachy}
