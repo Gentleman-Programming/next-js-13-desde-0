@@ -19,9 +19,9 @@ export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith("/information")) {
     const user = {
       name: "John Doe",
-      authenticated: false,
+      authenticated: process.env.NEXT_PUBLIC_AUTHENTICATED,
     };
-    if (!user.authenticated) {
+    if (user.authenticated !== "true") {
       return NextResponse.redirect(new URL("/login", request.url));
     }
   }

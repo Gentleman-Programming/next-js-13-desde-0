@@ -3,7 +3,7 @@ import { Routes } from "../../../models";
 import { getCharacters } from "./services";
 
 async function fetchCharacters() {
-  return await getCharacters();
+  return getCharacters();
 }
 
 async function Characters() {

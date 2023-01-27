@@ -14,3 +14,5 @@ export const firacode = localFont({
     },
   ],
 });
+
+export default firacode;
