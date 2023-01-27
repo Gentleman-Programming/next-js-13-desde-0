@@ -3,7 +3,7 @@ import { Routes } from "../../../models";
 import { getLocations } from "./services";
 
 async function fetchLocations() {
-  return await getLocations();
+  return getLocations();
 }
 
 async function Locations() {
