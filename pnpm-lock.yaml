@@ -11,6 +11,7 @@ specifiers:
   autoprefixer: ^10.4.13
   eslint: 8.31.0
   eslint-config-airbnb: ^19.0.4
+  eslint-config-airbnb-base: ^15.0.0
   eslint-config-airbnb-typescript: ^17.0.0
   eslint-config-next: 13.1.1
   eslint-config-node: ^4.1.0
@@ -40,6 +41,7 @@ dependencies:
   '@typescript-eslint/parser': 5.48.2_iukboom6ndih5an6iafl45j2fe
   airbnb: 0.0.2
   eslint-config-airbnb: 19.0.4_kolgxp72khdioduxddi3qt7v64
+  eslint-config-airbnb-base: 15.0.0_vz4tyq5r7fh66imfi352lmrvhq
   eslint-config-airbnb-typescript: 17.0.0_qzmkshlva5rxs6trhwmgtabqxq
   eslint-module-utils: 2.7.4_oa6nn542mmm7vqt7omjryoishq
   eslint-plugin-import: 2.27.5_oa6nn542mmm7vqt7omjryoishq
